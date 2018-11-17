@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="background-image"> <img src="/img/1.jpg" class="stretch-background" alt="">
+    </div>
+    <div class="testbuttons">
+        <h1 id="testingpencet">test pencet</h1>
+        <button onclick="ceknosa()">ceknosa</button>
+        <button onclick="nosasi()">nosasi</button>
+        <button onclick="sasingow()">sasingow</button>
+    </div>
+<script>
+    function ceknosa(){
+        document.getElementById("testingpencet").innerHTML = "123"
+    }
+    function nosasi(){
+        document.getElementById("testingpencet").innerHTML = "234"
+    }
+    function sasingow(){
+        document.getElementById("testingpencet").innerHTML = "345"
+
+    }
+</script>
+</body>
+
+</html>
